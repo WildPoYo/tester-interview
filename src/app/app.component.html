@@ -1,0 +1,13 @@
+<div class="main">
+  <mat-card-title>Card Title</mat-card-title>
+  <mat-card class="card-title">Card</mat-card>
+  <button mat-raised-button (click)="toggleShow()" color="primary">I am a button</button>
+
+  <div *ngIf="isShown" class="row container-fluid" class="divshow">
+    <mat-list role="list">
+      <mat-list-item role="listitem">Item 1</mat-list-item>
+      <mat-list-item role="listitem">Item 2</mat-list-item>
+      <mat-list-item role="listitem">Item 3</mat-list-item>
+    </mat-list>
+  </div>
+</div>
